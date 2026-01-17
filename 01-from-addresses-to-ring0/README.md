@@ -30,7 +30,7 @@ This document chronicles the first day of my journey from userspace developer to
 
 > **Code Example:** `pointer_basics.c`
 
-![Pointer Basics](01-from-addresses-to-ring0/screenshots/pointer_basics.png)
+![Pointer Basics](screenshots/pointer_basics.png)
 
 ```c
 int age = 21;
@@ -293,7 +293,7 @@ This question led to understanding the entire memory management architecture.
 
 > **Complete Module:** `hello_kernel.c`
 
-![Hello Kernel Module](01-from-addresses-to-ring0/screenshots/hello_kernel.png)
+![Hello Kernel Module](screenshots/hello_kernel.png)
 
 ```c
 #include <linux/module.h>
@@ -515,7 +515,7 @@ Module verification failed
 make
 ```
 
-![Module Compilation and Loading](01-from-addresses-to-ring0/screenshots/module_loaded.png)
+![Module Compilation and Loading](screenshots/module_loaded.png)
 
 **Output:**
 ```
